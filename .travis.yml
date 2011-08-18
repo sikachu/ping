@@ -1,0 +1,11 @@
+rvm:
+ - 1.9.2
+env:
+ - TAKE=1
+ - TAKE=2
+ - TAKE=3
+ - TAKE=4
+ - TAKE=5
+ - TAKE=6
+ - TAKE=7
+ - TAKE=8
