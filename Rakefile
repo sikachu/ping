@@ -4,4 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
+task "default" do
+  `curl http://furious-flower-570.heroku.com/ping`
+end
+
 Pingpong::Application.load_tasks
